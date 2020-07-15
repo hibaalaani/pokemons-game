@@ -1,0 +1,23 @@
+.Pokidex-card{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.Pokidex-title{
+    text-align: center;
+    color: white;
+}
+.Pokidex-winner{
+  color: rgb(59, 165, 59);
+}
+.Pokidex-loser{
+  color:rgb(218, 60, 60)
+}
+@media( max-width :600px){
+   .Pokidex-card{
+     justify-content: center;
+    
+   }
+}

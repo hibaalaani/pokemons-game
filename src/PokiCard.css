@@ -1,0 +1,23 @@
+.PokiCard {
+color: #e6d4d7;
+border-radius:10%;
+text-align: center;
+box-sizing: border-box;
+margin: 1rem auto;
+width:250px;
+box-shadow: 7px 10px 12px -5px rgba(235, 204, 204, 0.3);
+background-color: rgb(	66, 26, 53);
+
+}      
+.PokiCard-image{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 200px;
+   background-color: #e6d4d7; 
+}
+.PokiCard-data{
+    font-size: 1rem;
+   
+  
+}
